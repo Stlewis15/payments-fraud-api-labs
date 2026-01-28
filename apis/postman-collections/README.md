@@ -12,15 +12,16 @@
   - Response JSON structure and key fields (id, amount, currency, livemode)
 
 ## What I experienced (real integration notes)
-- I successfully created a Stripe PaymentIntent (POST) and retrieved it by ID (GET).
-- I encountered a 400 error caused by hidden/forbidden characters in the request URL when variables or copied text included unexpected formatting.
-- I resolved it by retyping the URL cleanly and then confirming a stable flow:
-  - Create PaymentIntent → capture the returned `pi_...` ID → Retrieve PaymentIntent
-- This reinforced two real-world integration lessons:
-  - Small formatting issues can break API calls even when credentials are correct.
-  - Postman environments/variables make demos repeatable and reduce mistakes when switching between requests.
+- Successfully created a Stripe PaymentIntent (POST) and retrieved it by ID (GET).
+- Encountered a 400 error caused by hidden or forbidden characters introduced through copy/paste or variable resolution.
+- Resolved the issue by retyping the URL cleanly and confirming a stable workflow:
+  - Create PaymentIntent → capture returned `pi_...` ID → Retrieve PaymentIntent
+- Key real-world takeaways:
+  - Minor formatting issues can break API calls even when credentials are correct.
+  - Postman environments and variables make demos repeatable and reduce errors when switching between requests.
 
 ## Day 2 Screenshots (Collections + Request/Response)
+
 **Collection overview (requests organized in a collection):**  
 ![Postman Collection Overview](postman-collection-overview.png)
 
@@ -28,5 +29,6 @@
 ![GET PaymentIntent – 200 OK](postman-get-paymentintent-200.png)
 
 ## Day 3 Screenshots (Variables + Environments)
+
 **Environment variables used for a repeatable demo:**  
 ![Postman Environment Variables](postman-environment-variables.png)
