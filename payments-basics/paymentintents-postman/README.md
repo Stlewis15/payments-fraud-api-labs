@@ -18,3 +18,11 @@ Create a PaymentIntent using Stripe’s API via Postman.
 
 **SE Takeaway:**  
 This lab demonstrates how Stripe validates required fields and provides actionable error messages and request logs, allowing developers and sales engineers to quickly troubleshoot integration issues.
+
+### Screenshots
+
+**Postman Request – Create PaymentIntent**  
+![Postman Create PaymentIntent](postman-create-paymentintent.png)
+
+**Stripe API Response**  
+![Stripe PaymentIntent Response](stripe-paymentintent-response.png)
