@@ -1,47 +1,25 @@
-# payments-fraud-api-labs
+# 💳 Payments, Fraud, & API Infrastructure Labs
 
-Hands-on API labs focused on payment processing, fraud prevention, and Sales Engineer fundamentals.
+Welcome to my technical lab. This repository documents my transition from **ISP Infrastructure** to **Payment Architecture**. It serves as a Proof-of-Value (PoV) sandbox for API integrations, fraud logic, and compliance strategies.
 
-This repository is part of **Payment Bootcamp 01**, a structured, hands-on learning track designed to build real-world experience with payment APIs, Postman, webhooks, and fraud-related workflows used by companies like Stripe, Visa, PayPal, and CyberSource.
+## 📂 Repository Roadmap
 
----
+### 🛡️ [Compliance & Security](./compliance/README.md)
+* **PCI DSS v4.0 Strategy:** Technical breakdown of moving merchants from SAQ-D to SAQ-A.
+* **Scope Reduction:** How tokenization at the edge reduces liability.
 
-## What’s included so far
+### 🎓 [Industry Credentials](./industry-credentials/README.md)
+* **Masterclass:** Fraud Prevention, Dispute Resolution, and PCI-DSS (Vasco Patrício).
+* **Core Skills:** Liability shift mechanics, 3DS 2.0, and Chargeback Representment.
 
-### ✅ Postman Fundamentals (Day 2–3)
-- Built and organized API requests in Postman
-- Created and retrieved Stripe PaymentIntents (POST + GET)
-- Worked with:
-  - Authorization (Bearer tokens)
-  - Request bodies and headers
-  - Environment variables and reusable demos
-- Documented real troubleshooting scenarios (400 errors, variable resolution, URL formatting issues)
+### 🛠️ [API Integrations](./apis/README.md)
+* **RESTful Workflows:** Documenting Postman collections for Authorization and Capture flows.
+* **Webhooks:** Handling real-time event notifications for settlement and disputes.
 
-📁 See: `/apis/postman-collections/`  
-📁 See: `/payments-basics/paymentintents-postman/`
-
----
-
-## What’s coming next
-
-### 🔜 Webhooks & Event-Driven Payments (Day 4)
-- Stripe webhook events (e.g. `payment_intent.succeeded`)
-- Local webhook testing
-- How real-time events connect payments to fraud and downstream systems
-
-### 🔜 Fraud & Risk APIs
-- Vendor-style request flows
-- Decisioning concepts
-- Multi-provider exposure (Stripe + CyberSource)
+### 🕵️ [Fraud Logic](./fraud/README.md)
+* **Risk Scoring:** Implementing velocity checks and behavioral fingerprints.
+* **Logic Flows:** Mapping the 'Intelligence Layer' between a transaction and a decision.
 
 ---
-
-## Why this repo exists
-This repo is intentionally **hands-on and practical**, mirroring how Sales Engineers:
-- Test APIs with customers
-- Troubleshoot integration issues
-- Explain request/response behavior clearly
-- Build repeatable demos using Postman environments
-
-Each lab includes documentation and screenshots to demonstrate both technical execution and SE-style communication.
+**Looking for a specific lab?** Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/lewisstargill) for a walkthrough of these architectures.
 
