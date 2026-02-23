@@ -12,13 +12,13 @@ Welcome to my technical lab. This repository documents my transition from **ISP 
 * **Masterclass:** Fraud Prevention, Dispute Resolution, and PCI-DSS (Vasco Patrício).
 * **Core Skills:** Liability shift mechanics, 3DS 2.0, and Chargeback Representment.
 
+### 🎭 [Sales Engineering Methodology](./sales-engineering-methodology/README.md)
+* **Demo Fest 2026:** Insights on "Presales at Scale" and Value-Based Discovery.
+* **Soft Skills:** Frameworks for technical storytelling and buyer enablement.
+
 ### 🛠️ [API Integrations](./apis/README.md)
 * **RESTful Workflows:** Documenting Postman collections for Authorization and Capture flows.
 * **Webhooks:** Handling real-time event notifications for settlement and disputes.
-
-### 🕵️ [Fraud Logic](./fraud/README.md)
-* **Risk Scoring:** Implementing velocity checks and behavioral fingerprints.
-* **Logic Flows:** Mapping the 'Intelligence Layer' between a transaction and a decision.
 
 ---
 **Looking for a specific lab?** Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/lewisstargill) for a walkthrough of these architectures.
