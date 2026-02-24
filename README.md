@@ -19,6 +19,7 @@ Welcome to my technical lab. This repository documents my transition from **ISP 
 ### 🛠️ [API Integrations](./apis/README.md)
 * **RESTful Workflows:** Documenting Postman collections for Authorization and Capture flows.
 * **Webhooks:** Handling real-time event notifications for settlement and disputes.
+* 🗝️ **[Day 8: Idempotency & Reliability](./labs/day-08-idempotency/README.md):** Solving for network-layer failures to prevent double-charging.
 
 ---
 **Looking for a specific lab?** Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/lewisstargill) for a walkthrough of these architectures.
