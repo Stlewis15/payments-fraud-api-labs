@@ -2,7 +2,7 @@
 
 Documentation of frameworks, community events, and advanced demonstration techniques aimed at shortening sales cycles and improving "Technical Win" rates.
 
-## 🏅 Demofest 2026 (by Consensus)
+## 🏅 DEMOFEST: Sales Engineering Conference 2026 (by Consensus)
 **Focus:** The Product Experience Revolution & AI-Driven GTM Alignment
 
 ### 💡 Key Breakout Insights:
